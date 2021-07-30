@@ -1,0 +1,22 @@
+==82951== Memcheck, a memory error detector
+==82951== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==82951== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==82951== Command: ./koch 72 360 504 360 1
+==82951== 
+%!PS-Adobe-2.0
+72	360	moveto
+144	0	rlineto
+72	125	rlineto
+72	-125	rlineto
+144	0	rlineto
+stroke
+showpage
+==82951== 
+==82951== HEAP SUMMARY:
+==82951==     in use at exit: 0 bytes in 0 blocks
+==82951==   total heap usage: 10 allocs, 10 frees, 76,992 bytes allocated
+==82951== 
+==82951== All heap blocks were freed -- no leaks are possible
+==82951== 
+==82951== For lists of detected and suppressed errors, rerun with: -s
+==82951== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
